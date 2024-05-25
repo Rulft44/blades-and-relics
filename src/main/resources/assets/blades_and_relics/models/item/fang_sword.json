@@ -1,0 +1,44 @@
+{
+	"credit": "Defenetly NOT made with Blockbench (trust me)",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "blades_and_relics:item/fang_sword"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 33],
+			"translation": [0, -6, 1.25],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -33],
+			"translation": [0, -6, 1.25],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_righthand": {
+			"rotation": [-41, -151, -51],
+			"translation": [4.75, 0.75, -1.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-41, 35, 51],
+			"translation": [4.75, 1.25, -1.5],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"ground": {
+			"rotation": [0, 0, 48],
+			"scale": [0.68, 0.68, 0.68]
+		},
+		"gui": {
+			"scale": [1.14, 1.14, 1.14]
+		},
+		"head": {
+			"rotation": [0, 180, 55],
+			"translation": [1.75, 9.25, 0]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"scale": [1.17, 1.17, 1.17]
+		}
+	}
+}
