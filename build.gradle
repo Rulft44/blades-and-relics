@@ -154,6 +154,7 @@ dependencies {
     implementation fg.deobf("curse.maven:ice-and-fire-dragons-264231:4614465")
 
     implementation fg.deobf("curse.maven:jei-238222:4593548")
+    implementation fg.deobf("curse.maven:jade-324717:5079263")
 
     // Example mod dependency with JEI - using fg.deobf() ensures the dependency is remapped to your development mappings
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
