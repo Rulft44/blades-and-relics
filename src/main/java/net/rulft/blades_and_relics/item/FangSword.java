@@ -14,6 +14,7 @@ import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -29,9 +30,9 @@ public class FangSword extends SwordItem {
     }
 
     @Override
-    public boolean hurtEnemy(ItemStack pStack, LivingEntity pTarget, LivingEntity pAttacker) {
+    public boolean hurtEnemy(ItemStack pStack, @NotNull LivingEntity pTarget, LivingEntity pAttacker) {
         if(pTarget instanceof EntityFireDragon || pTarget instanceof EntityIceDragon || pTarget instanceof EntityLightningDragon){
-            pTarget.hurt(DamageSource.playerAttack((Player) pAttacker), 9.5f);
+            pTarget.hurt(DamageSource.playerAttack((Player) pAttacker), 13.5f);
         }
         return super.hurtEnemy(pStack, pTarget, pAttacker);
     }

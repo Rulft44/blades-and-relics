@@ -17,8 +17,15 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, BladesAndRelics.MOD_ID);
 
 
-    public static final RegistryObject<Item> FANG_SWORD = ITEMS.register("fang_sword", () -> new FangSword(DRAGONBONE_TOOL_MATERIAL, 3, -2.4F, (new Item.Properties()).tab(IceAndFire.TAB_ITEMS)));
-    public static final RegistryObject<Item> DRAGON_FANG = ITEMS.register("dragon_fang", () -> new Item(new Item.Properties().tab(IceAndFire.TAB_ITEMS).stacksTo(1)));
+    public static final RegistryObject<Item> FANG_SWORD = ITEMS.register("fang_sword", ()
+            -> new FangSword(DRAGONBONE_TOOL_MATERIAL, 2, -2.4F, (new Item.Properties()).tab(IceAndFire.TAB_ITEMS)));
+    public static final RegistryObject<Item> DRAGON_FANG = ITEMS.register("dragon_fang", ()
+            -> new Item(new Item.Properties().tab(IceAndFire.TAB_ITEMS).stacksTo(1)));
+
+    public static final RegistryObject<Item> FROST_ARROW = ITEMS.register("frost_arrow", ()
+            -> new FrostArrowItem(new Item.Properties().tab(IceAndFire.TAB_ITEMS), 4f));
+    public static final RegistryObject<Item> FLAME_ARROW = ITEMS.register("flame_arrow", ()
+            -> new FlameArrowItem(new Item.Properties().tab(IceAndFire.TAB_ITEMS), 4f));
 
 
     public static void register(IEventBus eventBus) {

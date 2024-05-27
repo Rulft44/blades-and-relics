@@ -10,6 +10,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.rulft.blades_and_relics.item.ModItems;
+import net.rulft.blades_and_relics.world.entity.ModEntityType;
 import org.slf4j.Logger;
 
 @Mod(BladesAndRelics.MOD_ID)
@@ -23,6 +24,7 @@ public class BladesAndRelics {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModEntityType.register(eventBus);
 
 
         eventBus.addListener(this::setup);

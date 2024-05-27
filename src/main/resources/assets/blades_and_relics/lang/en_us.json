@@ -2,5 +2,8 @@
   "item.blades_and_relics.fang_sword": "Drakefang Dagger",
   "item.blades_and_relics.dragon_fang": "Dragon Fang",
 
+  "item.blades_and_relics.frost_arrow": "Frostbite Arrow",
+  "item.blades_and_relics.flame_arrow": "Flame Arrow",
+
   "fang_sword.hurt": "+5 damage against dragons"
 }
