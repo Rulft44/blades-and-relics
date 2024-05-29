@@ -26,6 +26,8 @@ public class ModItems {
             -> new FrostArrowItem(new Item.Properties().tab(IceAndFire.TAB_ITEMS), 4f));
     public static final RegistryObject<Item> FLAME_ARROW = ITEMS.register("flame_arrow", ()
             -> new FlameArrowItem(new Item.Properties().tab(IceAndFire.TAB_ITEMS), 4f));
+    public static final RegistryObject<Item> THUNDER_ARROW = ITEMS.register("thunder_arrow", ()
+            -> new ThunderArrowItem(new Item.Properties().tab(IceAndFire.TAB_ITEMS), 4f));
 
 
     public static void register(IEventBus eventBus) {
