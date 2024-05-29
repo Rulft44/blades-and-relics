@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "blades_and_relics:frost_arrow",
+    "blades_and_relics:flame_arrow",
+    "blades_and_relics:thunder_arrow"
+  ]
+}

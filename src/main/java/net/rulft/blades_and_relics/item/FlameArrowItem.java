@@ -34,12 +34,6 @@ public class FlameArrowItem extends ArrowItem {
         return arrow;
     }
 
-    @Override
-    public boolean isInfinite(ItemStack stack, ItemStack bow, Player player) {
-        int enchant = EnchantmentHelper.getItemEnchantmentLevel(Enchantments.INFINITY_ARROWS, bow);
-        return enchant <= 0 ? false : this.getClass() == FlameArrowItem.class;
-    }
-
     public void appendHoverText(@NotNull ItemStack stack, @Nullable Level worldIn, List<Component> tooltip, @NotNull TooltipFlag flagIn) {
         tooltip.add((new TranslatableComponent("dragon_sword_fire.hurt1")).withStyle(ChatFormatting.GREEN));
         if (IafConfig.dragonWeaponIceAbility) {

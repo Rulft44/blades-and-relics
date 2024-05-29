@@ -35,12 +35,6 @@ public class FrostArrowItem extends ArrowItem {
         return arrow;
     }
 
-    @Override
-    public boolean isInfinite(ItemStack stack, ItemStack bow, Player player) {
-        int enchant = EnchantmentHelper.getItemEnchantmentLevel(Enchantments.INFINITY_ARROWS, bow);
-        return enchant <= 0 ? false : this.getClass() == FrostArrowItem.class;
-    }
-
     public void appendHoverText(@NotNull ItemStack stack, @Nullable Level worldIn, List<Component> tooltip, @NotNull TooltipFlag flagIn) {
         tooltip.add((new TranslatableComponent("dragon_sword_ice.hurt1")).withStyle(ChatFormatting.GREEN));
         if (IafConfig.dragonWeaponIceAbility) {
