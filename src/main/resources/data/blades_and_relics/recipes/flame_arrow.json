@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "iceandfire:dragonbone_arrow"
+    },
+    {
+      "item": "iceandfire:dragonbone_arrow"
+    },
+    {
+      "item": "iceandfire:dragonbone_arrow"
+    },
+    {
+      "item": "iceandfire:dragonbone_arrow"
+    },
+    {
+      "item": "iceandfire:dragonbone_arrow"
+    },
+    {
+      "item": "iceandfire:dragonbone_arrow"
+    },
+    {
+      "item": "iceandfire:dragonbone_arrow"
+    },
+    {
+      "item": "iceandfire:dragonbone_arrow"
+    },
+    {
+      "item": "iceandfire:fire_dragon_blood"
+    }
+  ],
+  "result": {
+    "item": "blades_and_relics:flame_arrow",
+    "count": 8
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 23",
+    " 22",
+    "1  "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "iceandfire:fishing_spear",
+    "count": 1
+  }
+}
