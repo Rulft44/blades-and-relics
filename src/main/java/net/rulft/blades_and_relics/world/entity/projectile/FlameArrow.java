@@ -26,6 +26,7 @@ import net.rulft.blades_and_relics.item.ModItems;
 import net.rulft.blades_and_relics.world.entity.ModEntityType;
 import org.jetbrains.annotations.NotNull;
 
+//oh god
 public class FlameArrow extends AbstractArrow {
     private final Item referenceItem;
 

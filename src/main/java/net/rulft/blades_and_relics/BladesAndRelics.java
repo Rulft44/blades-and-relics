@@ -25,7 +25,7 @@ public class BladesAndRelics {
 
         ModItems.register(eventBus);
         ModEntityType.register(eventBus);
-
+        //smh my balls; illuc 2006-2023
 
         eventBus.addListener(this::setup);
         // Register ourselves for server and other game events we are interested in
